@@ -1,0 +1,104 @@
+/*SIGN_UP */
+
+.signUp{
+    color: #000000
+}
+.signUp .content{}
+.signUp .content{
+    padding-left: 100px;
+}
+.signUp .content h2{
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 150px;
+    margin-bottom: 52px;
+    font-family: Gilroy ExtraBold;
+}
+.signUp .content h4{
+    font-size: 18px;
+    color: #B9B9B9;
+    cursor: pointer;
+    margin: 0 25px;
+    margin-left: 0;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+.signUp .content h4.activeSignUpfeat{
+    font-weight: 800;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    transition: all .3s ease-in-out
+}
+
+
+
+.signUp .content .signUpFooter {
+/*        margin-top: 60px;*/
+}
+.signUp .content .signUpFooter button{
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 24px 0;
+    color: black;
+    background: white;
+}
+.signUp .content .signUpFooter p{
+    color: #BABABA;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.signUp .content .signUpFooter p span a{
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000
+}
+.signUp .content .signUpFooter a {
+    color: #BABABA;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+i.fas.fa-mobile-alt {
+    margin-right: 7px !important;
+}
+i.fas.fa-user-friends {
+    margin-right: 9px !important;
+}
+/*MEADIA SIGN_UP */
+@media (max-width: 990px){
+    .aside img.logo{
+        margin: 40px 0;
+    }
+    .signUp .content {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 767px){
+    .mainflex{
+        display: block
+    }
+    .aside{
+        width: auto
+    }
+}
+@media (max-width: 450px){
+    .signUp .content  .disF.signUpfeat{
+        display: block
+    }
+    .signUp .content h4{
+        margin: 20px 0
+    }
+}
+/*END SIGN_UP */

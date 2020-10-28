@@ -1,0 +1,176 @@
+
+
+.dashCon .content{
+    width: 100%;
+    background: #F6F7FB;
+    padding: 60px 0;
+}
+.dashCon .content h3{
+    font-size: 20px;
+    font-family: Gilroy ExtraBold;
+    text-align: center;
+    font-weight: bolder
+}
+.dashCon .content h6{
+    font-family: Gilroy ExtraBold;
+    border-bottom: 2px solid black;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+.dashCon .content .row1 p,.dashCon .content .row2 p{
+    font-size: 15px;
+    font-family: Gilroy Light;
+    font-weight: bolder;
+    text-align: center
+}
+.dashCon .content .row.row2 {
+    margin-top: 27px;
+}
+.dashCon .content .qeBox{
+    margin: 10px 0;
+}
+.dashCon .content .qeBox .lable{
+    display: flex;
+    align-items: flex-end;
+}
+.dashCon .content .qeBox .lable p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: black;
+/*    letter-spacing: 1px;*/
+}
+.dashCon .content .conFooter{
+    padding: 100px 0 0;
+}
+
+.dashCon .content .qeBox .inputs p.val{
+    font-size: 25px;
+    font-weight: 600
+}
+.dashCon .content .qeBox .inputs {
+    border-bottom: 2px solid #000000;
+    padding-left: 2px;
+    padding-bottom: 0; 
+    margin: 0
+}
+.dashCon .content .qeBox .inputs input{
+    width: 100%;
+    background: transparent;
+}
+
+.dashCon .content .qeBox .range{
+    margin-left: 155px;
+}
+.dashCon .content .qeBox .range p{
+    font-weight: bold
+}
+.dashCon .content .qeBox .range .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 50px;
+    background: #773E3E;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin: 0 2px
+}
+.dashCon .content .qeBox .range .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: #FF0F0F;
+    cursor: pointer;
+}
+.dashCon .content .qeBox .range .slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #FF0F0F;
+  cursor: pointer;
+}
+
+.dashCon .content .col-4,.dashCon .content .col-4 {
+    display: flex;
+    align-items: flex-end;
+}
+.dashCon .content .col-4, .dashCon .content .col-1, .dashCon .content .col-4{
+    padding: 0
+}
+
+.dashCon .content .next{
+    display: flex;
+    justify-content: flex-end;
+}
+.dashCon .content .next a{
+    
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Roboto';
+
+}
+
+/*MEADIA SIGN_UP */
+@media (max-width: 1100px){
+    .dashCon .content .qeBox .col-2{
+        display: none
+    }
+}
+@media (max-width: 990px){
+    .dashCon .dashAside{
+        display: none
+    }
+    .dashboard .navDash .menu{
+        display: block
+    }
+    .dashCon .dashAside .boxPer{
+        display: block
+    }
+    .dashboard .navDash .boxPer{
+        display: none
+    }
+    .dashCon{
+        display: block
+    }
+    .dashCon .dashAside .boxFooter {
+        position: static;
+
+    }
+    .dashboard .navDash .col-7{
+        display: none
+    }
+    .dashboard .navDash .col-lg-2.logo{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 6px;
+        border-right: 0
+    }
+    
+    .dashCon .content .qeBox .lable p{
+        font-size: 17px;
+    }
+    .dashCon .content .qeBox .inputs{
+        max-width: 355px;
+        margin: 5px 0;
+    }
+    .dashCon .content .qeBox .range{
+        margin-left: 0
+    }
+    .dashCon .content .row1 p, .dashCon .content .row2 p ,.dashCon .content h3{
+        text-align: start
+    }
+    
+    .dashCon .content .qeBox {
+        margin: 40px 0;
+    }
+}
+/*
+.content{
+    height: 100vh;
+}*/

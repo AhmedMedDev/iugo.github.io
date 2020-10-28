@@ -1,0 +1,71 @@
+/*SIGN_UP */
+.aside{
+    height: 100vh;
+}
+.signUp{
+    color: #000000
+}
+.signUp .content{
+    padding-left: 41px;
+}
+.signUp .content .weLogo{
+    margin: 60px 0
+}
+.signUp .content .posCen {
+    position: absolute;
+    top: 50%;
+    left: auto;
+    transform: translate(0, -50%);
+}
+.signUp .content h4{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Gilroy ExtraBold; 
+}
+
+
+.signUp .content  button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 50px auto;
+    color: black;
+    background: white;
+    display: flex;
+}
+
+/*MEADIA SIGN_UP */
+@media (max-width: 990px){
+    
+    .aside img.logo{
+        margin: 40px 0;
+    }
+    .signUp .content {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 767px){
+    .aside{
+        height: auto;
+    }
+    .mainflex{
+        display: block
+    }
+    .aside{
+        width: auto
+    }
+}
+@media (max-width: 530px){
+    .signUp .content .weLogo{
+        display: block
+    }
+    .signUp .content {
+        padding-left: 0px;
+    }
+}
+/*END SIGN_UP */

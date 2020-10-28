@@ -1,0 +1,181 @@
+/*SIGN_UP */
+
+.aside .mainflex{}
+.aside  .disF{
+    margin: 20px 0
+}
+.aside  .disF img{}
+.aside  .disF h1{
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 5px
+}
+.signUp{
+    color: #000000
+}
+.signUp .content{}
+.signUp .content{
+    padding-left: 100px;
+}
+.signUp .content h2{
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-family: 'Gilroy ExtraBold';
+}
+.signUp .content > p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5F5F5F;
+}
+.signUp .content .inputs{
+    border-bottom: 1px solid #B9B9B9;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    
+}
+.signUp .content .inputs i{
+    font-size: 20px;
+}
+.signUp .content .inputs input{
+    border: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 22px;
+    padding-left: 0
+}
+.signUp .content .inputs .slidBox{
+    margin: 0 22px;
+}
+.signUp .content .inputs .slidBox p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+.signUp .content .inputs .slidIcon{
+    cursor: pointer
+}
+.signUp .content .inputs .slidBox select {
+    border: 0;
+    color: #797979;
+    font-size: 18px;    
+    outline: none
+}
+.signUp .content .inputs .slidBox select option{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.signUp .content .inputs .slidBox select option.placeholder{
+    display: none
+}
+.signUp .content .inputs .slidBox select option.placeholder2,.plc{
+    display: none
+}
+.signUp .content .signUpFooter {
+/*        margin-top: 60px;*/
+}
+.signUp .content .signUpFooter button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 50px 0;
+    color: black;
+    background: white;
+}
+
+.signUp .content .signUpFooter input[type="submit"] {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 50px 0;
+    color: black;
+    background: white;
+    outline: none
+}
+
+.signUp .content .signUpFooter a.forget{
+    padding-bottom: 9px;
+    color: #5F5F5F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    margin-left: 33%;
+}
+.signUp .content .signUpFooter .dont{
+    margin-top: 50px
+}
+.signUp .content .signUpFooter .dont p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #BABABA;
+    font-weight: 500
+}
+.signUp .content .signUpFooter .dont p a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700
+}
+
+/*MEADIA SIGN_UP */
+@media (min-width: 1900px){
+    .aside{
+        height: 100vh
+    }
+}
+@media (max-width: 990px){
+    .aside img.logo{
+        margin: 40px 0;
+    }
+    .signUp .content {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 990px){
+    .aside{
+        height: auto;
+    }
+    .mainflex{
+        display: block
+    }
+    .aside{
+        width: auto
+    }
+}
+@media (max-width: 530px){
+    .aside .disF {
+        display: block
+    }
+    .signUp .content .signUpFooter a.forget{
+        margin-left: 0
+    }
+}
+@media (max-width: 450px){
+    .signUp .content  .disF.signUpfeat{
+        display: block
+    }
+    .signUp .content h4{
+        margin: 20px 0
+    }
+}
+/*END SIGN_UP */

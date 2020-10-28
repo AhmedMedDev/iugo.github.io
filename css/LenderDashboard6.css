@@ -1,0 +1,33 @@
+.content{
+    height: 100vh;
+}
+.dashCon .content{
+    width: 100%;
+    background: #F6F7FB;
+    padding: 33px 0;
+}
+.dashCon .content h3 {
+    font-size: 20px;
+    font-family: Gilroy ExtraBold;
+    text-align: center;
+    font-weight: bolder;
+}
+.dashCon .content .box1 {
+    padding: 0;
+    text-align: center;
+}
+.dashCon .content .box1 .box {
+    background: #C4C4C4;
+    padding: 1rem 0;
+    margin: 17px 0;
+}
+.dashCon .content .box1 h5  {
+    font-size: 12px;
+    font-family: 'Gilroy ExtraBold';
+}
+.dashCon .content .box1 .info h5{
+    font-family: 'Gilroy Light';
+    font-weight: bold
+}
+/*MEADIA SIGN_UP */
+

@@ -1,0 +1,366 @@
+/*=============FONTS=============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+@import url('../fonts/Gilroy-Light.otf');
+/* font-family: 'Gilroy Light'; */
+@import url('../fonts/Gilroy-ExtraBold.otf');
+/* font-family: 'Gilroy ExtraBold'; */
+@font-face{
+    font-family: Gilroy ExtraBold;
+    src: url('../fonts/Gilroy-ExtraBold.otf')
+}
+@font-face{
+    font-family: Gilroy Light;
+    src: url('../fonts/Gilroy-Light.otf')
+}
+/*=============FONTS=============*/
+body{
+   animation: transition .5s
+}
+.hidden{
+    display: none
+}
+.clear{
+    clear: both
+}
+.respon-img{
+    max-width: 100%
+}
+.center{
+    text-align: center
+}
+.scal{
+    filter: brightness(0.5);
+    transform: scale(1.1);
+}
+.posCen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.disF{
+    display: flex
+}
+.disF-a{
+    display: flex;
+    align-items: center
+}
+.disF-j{
+    display: flex;
+    justify-content: center
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overflow{
+     overflow-x: hidden
+}
+button{
+    border: 0;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none !important;
+}
+a:hover{
+    text-decoration: none
+}
+/*BASICS*/
+/*ANIMATION*/
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-30deg)
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg)
+    }
+}
+/*ANIMATION*/
+/*REPEATED */
+.aside{
+    background: #000000;
+    width: 55%;
+/*    text-align: center*/
+}
+.aside img.logo{
+    margin: 50px;
+}
+
+.aside .disF h1{
+    font-family: 'Gilroy ExtraBold' !important;
+    margin-bottom: 0;
+}
+
+.signUp .content h2{
+    font-family: 'Gilroy ExtraBold' !important;
+}
+.content .inputs{
+    border-bottom: 1px solid #B9B9B9;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    position: relative
+}
+.content .inputs i{
+    font-size: 20px;
+    width: 22px;
+    margin-right: 13px;
+    height: 22px;
+}
+.content .inputs input{
+    border: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;;
+/*    margin: 0 22px;*/
+    padding-left: 0
+}
+.content .inputs input:focus {
+    outline: none;
+}
+.content .inputs span.underline{
+    width: 100%;
+    transform: scale(0, 1);
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    background-color: dodgerblue;
+    transition: all .3s
+}
+.content .inputs input::-webkit-input-placeholder {
+  color: #aaa;
+}
+.content .inputs input:focus::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+.content .inputs .slidBox{
+/*    margin: 0 22px;*/
+}
+.content .inputs .slidBox p{
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+.content .inputs .slidIcon{
+    cursor: pointer
+}
+.content .inputs .slidBox select {
+    border: 0;
+    color: #797979;
+    font-size: 18px;    
+    font-family: 'Roboto', sans-serif;;
+}
+.content .inputs .slidBox select option{
+    color: #000;
+}
+.content .inputs .slidBox select option.placeholder{
+    display: none
+}
+
+@media (max-width: 767px){
+    .aside{
+        text-align: center;
+    }
+}
+
+.dashCon .content{
+    width: 100%;
+    background: #F6F7FB;
+    padding: 60px 0;
+}
+.dashboard{
+/*    padding: 20px 0;*/
+    border-bottom: 1px solid #aaaaaa;
+}
+.dashboard .navDash{
+    color: black;
+    position: relative
+}
+.dashboard .navDash .col-lg-2.logo{
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid #aaaaaa;
+    padding: 20px 0;
+} 
+.dashboard .navDash .logo img{
+    
+}
+.dashboard .navDash h3{
+    font-size: 24px;
+    font-family: Gilroy Light;
+    font-weight: bolder;
+}
+.dashboard .navDash i{
+    font-size: 1.5rem;
+}
+.dashboard .navDash hr{
+    width: 32px;
+    transform: rotate(90deg);
+    margin: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.dashboard .navDash .boxPer{
+    position: relative
+}
+
+.slideBox {
+    position: absolute;
+    background: #ffffff;
+    bottom: -59%;
+    right: 22px;
+    display: none
+}
+.slideBox a{
+        color: black;
+
+}
+
+.dashboard .navDash .boxPer img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50px;
+}
+.dashboard .navDash .boxPer h5{
+    margin-bottom: 0;
+}
+.dashboard .navDash .boxPer p{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
+    font-family: Gilroy Light; 
+}
+.dashboard .navDash .boxPer i{
+    cursor: pointer
+}
+.dashboard .navDash .mid{
+    margin: 0 30px 0 10px;
+}
+.dashboard .navDash .col-3 {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard .navDash .menu{
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 50px;
+}
+
+.dashCon{}
+.dashCon p{
+    margin-bottom: 0
+}
+.dashCon .dashAside{
+    background: #000000;
+    color: white;
+    padding: 0;
+    position: relative
+}
+.dashCon .dashAside .box{
+    padding: 1.5rem 0;
+    cursor: pointer;
+    padding-left: 17px;
+}
+.dashCon .dashAside .box.active{
+    background: #212121;
+    border-right: 3px solid #3695F3;
+}
+.dashCon .dashAside .box img{
+    width: 20px;
+    height: 20px;
+}
+.dashCon .dashAside .box h5{
+    margin: 0 15px;
+    font-family: Gilroy Light;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+.dashCon .dashAside .boxFooter{
+    position: absolute;
+    bottom: 30px;
+    left: 17px
+}
+
+.dashCon .dashAside .boxPer{
+     padding: 1.5rem 0;
+    padding-left: 17px;
+    position: relative
+}
+.dashCon .dashAside .boxPer img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50px;
+     margin-left: 15px;
+}
+.dashCon .dashAside .boxPer h5{
+    margin-bottom: 0;
+}
+.dashCon .dashAside .boxPer p{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: Gilroy Light; 
+}
+.dashCon .dashAside .boxPer i{
+    
+}
+.dashCon .dashAside .boxPer .mid{
+    margin: 0 20px 0 5px;
+}
+@media (max-width: 990px){
+    .dashCon .dashAside{
+        display: none
+    }
+    .dashboard .navDash .menu{
+        display: block
+    }
+    .dashCon .dashAside .boxPer{
+        display: block
+    }
+    .dashboard .navDash .boxPer{
+        display: none
+    }
+    .dashCon{
+        display: block
+    }
+    .dashCon .dashAside .boxFooter {
+        position: static;
+
+    }
+    .dashboard .navDash .col-7{
+        display: none
+    }
+    .dashboard .navDash .col-lg-2.logo{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 6px;
+        border-right: 0
+    }
+    
+    .slideBox {
+        position: absolute;
+        background: #000;
+        bottom: 15px;
+        right: 22px;
+        display: none
+    }
+    .slideBox a{
+        color: white;
+
+    }
+   
+}
+
+/*REPEATED */

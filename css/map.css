@@ -1,0 +1,92 @@
+
+/*
+.content{
+    height: 100vh;
+}
+*/
+.dashCon .content h3 {
+    font-size: 20px;
+    font-family: 'Gilroy ExtraBold';
+    margin-bottom: 37px;
+}
+.dashCon .content .search{
+    border: 1px solid;
+    background: white;
+    padding: 1rem ;
+    display: flex
+}
+.dashCon .content .search .box{
+    color: white;
+    background: black;
+    position: relative;
+    padding: 6px;
+    width: fit-content;
+    margin: 0 13px;
+}
+.dashCon .content .search .box i{
+    color: black;
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    cursor: pointer
+}
+.dashCon .content .search .box h5{
+    margin: 0
+}
+.dashCon .content .search input[type="text"] {
+    width: 100%;
+    outline: none
+}
+.dashCon .content .next{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+.dashCon .content .next a{
+    
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Roboto';
+
+}
+/*MEADIA SIGN_UP */
+@media (max-width: 990px){
+    .dashCon .dashAside{
+        display: none
+    }
+    .dashboard .navDash .menu{
+        display: block
+    }
+    .dashCon .dashAside .boxPer{
+        display: block
+    }
+    .dashboard .navDash .boxPer{
+        display: none
+    }
+    .dashCon{
+        display: block
+    }
+    .dashCon .dashAside .boxFooter {
+        position: static;
+
+    }
+    .dashboard .navDash .col-7{
+        display: none
+    }
+    .dashboard .navDash .col-lg-2.logo{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 6px;
+        border-right: 0
+    }
+    
+    
+    .content{
+        height: auto;
+    }
+
+}
+

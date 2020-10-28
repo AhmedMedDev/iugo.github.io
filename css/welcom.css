@@ -1,0 +1,88 @@
+/*SIGN_UP */
+.aside{
+    height: 100vh;
+}
+.signUp{
+    color: #000000
+}
+.signUp .content{
+    padding-left: 30px;
+}
+.signUp .content .weLogo{
+    margin: 60px 0
+}
+.signUp .content .posCen {
+    left: auto;
+    transform: translate(0, -50%);
+}
+.signUp .content h4{
+    font-size: 40px;
+    font-weight: 200;
+}
+.signUp .content h1{
+    font-weight: 800;
+    font-size: 58px;
+    color: #000000;
+    font-family: 'Gilroy ExtraBold';
+    margin-right: 4px;
+}
+.signUp .content img{
+        height: 70px;
+    transform: translate(2px, 4px);
+}
+.signUp .content  button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 50px auto;
+    color: black;
+    background: white;
+    display: flex;
+}
+
+/*MEADIA SIGN_UP */
+@media (max-width: 1290px){
+    .signUp .content .weLogo{
+        display: block
+    }
+}
+@media (max-width: 990px){
+    .aside img.logo{
+        margin: 40px 0;
+    }
+    .signUp .content {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 767px){
+    .aside{
+        height: auto;
+        text-align: center;
+    }
+    .mainflex{
+        display: block
+    }
+    .aside{
+        width: auto
+    }
+    .signUp .content .posCen {
+        transform: translate(0, -0%);
+        position: static;
+    }
+}
+@media (max-width: 530px){
+    
+    .signUp .content {
+        padding-left: 0px;
+    }
+    .signUp .content  button{
+
+        margin: 50px 0;
+
+    }
+}
+/*END SIGN_UP */
